@@ -37,14 +37,7 @@ namespace ASP
         }
         public override void Execute()
         {
-WriteLiteral("<!DOCTYPE html>\r\n\r\n<html>\r\n<head>\r\n    <meta");
-
-WriteLiteral(" name=\"viewport\"");
-
-WriteLiteral(" content=\"width=device-width\"");
-
-WriteLiteral(" />\r\n    <title>Index</title>\r\n</head>\r\n<body>\r\n    <div> \r\n        <h1>This is R" +
-"oot3 View. Welcome!</h1>\r\n    </div>\r\n</body>\r\n</html>\r\n");
+WriteLiteral("<html>\r\n<body>\r\n    <p>This is Root3 View from Plugin 3</p>\r\n</body>\r\n</html>");
 
         }
     }

@@ -33,3 +33,9 @@ D:\Prady\RoughPad\PluggedMVC\PluggedMVC\plugins\Plugin1.pdb
 D:\Prady\RoughPad\PluggedMVC\Plugin1\obj\Debug\Plugin1.csprojResolveAssemblyReference.cache
 D:\Prady\RoughPad\PluggedMVC\Plugin1\obj\Debug\Plugin1.dll
 D:\Prady\RoughPad\PluggedMVC\Plugin1\obj\Debug\Plugin1.pdb
+Z:\MyGit\PluggableMVC\PluggedMVC\Plugin1\obj\Debug\Plugin1.csprojResolveAssemblyReference.cache
+Z:\MyGit\PluggableMVC\PluggedMVC\PluggedMVC\plugins\Plugin1.dll.config
+Z:\MyGit\PluggableMVC\PluggedMVC\PluggedMVC\plugins\Plugin1.dll
+Z:\MyGit\PluggableMVC\PluggedMVC\PluggedMVC\plugins\Plugin1.pdb
+Z:\MyGit\PluggableMVC\PluggedMVC\Plugin1\obj\Debug\Plugin1.dll
+Z:\MyGit\PluggableMVC\PluggedMVC\Plugin1\obj\Debug\Plugin1.pdb

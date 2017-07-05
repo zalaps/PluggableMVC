@@ -112,7 +112,6 @@
     <Compile Include="App_Start\RazorGeneratorMvcStart.cs" />
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="IModule.cs" />
-    <Compile Include="ModuleNames.cs" />
     <Compile Include="PluginBootstrapper.cs" />
     <Compile Include="PluginManager.cs" />
     <Compile Include="PreApplicationInit.cs" />
