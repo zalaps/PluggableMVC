@@ -1,7 +1,16 @@
 ﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+#######################################################
 
-/PluggedMVC/packages/Microsoft.AspNet.WebApi.Client.5.2.3
-/PluggedMVC/packages/Microsoft.AspNet.WebApi.5.2.3
-/PluggedMVC/packages/Microsoft.AspNet.WebApi.Core.5.2.3
+/PluggedMVC/Core/PluggedMVC.Core.Plugable/bin
+PluggedMVC/Core/PluggedMVC.Core.Plugable/obj
+PluggedMVC/Infrastructure/PluggedMVC.Infrastructure.PluginRegister/bin
+PluggedMVC/Infrastructure/PluggedMVC.Infrastructure.PluginRegister/obj
+PluggedMVC/Solution/packages
+PluggedMVC/WebFrontEnd/PluggedMVC.WebFrontEnd.MasterMVCApp/bin
+PluggedMVC/WebFrontEnd/PluggedMVC.WebFrontEnd.MasterMVCApp/obj
+PluggedMVC/WebFrontEnd/PluggedMVC.WebFrontEnd.MasterMVCApp/plugins
+PluggedMVC/WebPlugins/PluggedMVC.WebPlugins.ClassLibraryTemplate/bin
+PluggedMVC/WebPlugins/PluggedMVC.WebPlugins.ClassLibraryTemplate/obj
+PluggedMVC/WebPlugins/PluggedMVC.WebPlugins.MVCTemplate/bin
+PluggedMVC/WebPlugins/PluggedMVC.WebPlugins.MVCTemplate/obj
