@@ -1,0 +1,6 @@
+D:\Prady\RoughPad\PluggedMVC\PluggedMVC\plugins\Plugin3.dll.config
+D:\Prady\RoughPad\PluggedMVC\PluggedMVC\plugins\Plugin3.dll
+D:\Prady\RoughPad\PluggedMVC\PluggedMVC\plugins\Plugin3.pdb
+D:\Prady\RoughPad\PluggedMVC\Plugin3\obj\Debug\Plugin3.csprojResolveAssemblyReference.cache
+D:\Prady\RoughPad\PluggedMVC\Plugin3\obj\Debug\Plugin3.dll
+D:\Prady\RoughPad\PluggedMVC\Plugin3\obj\Debug\Plugin3.pdb

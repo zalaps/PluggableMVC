@@ -30,5 +30,6 @@ D:\Prady\RoughPad\PluggedMVC\PluginRegister\bin\Debug\System.Web.Razor.xml
 D:\Prady\RoughPad\PluggedMVC\PluginRegister\bin\Debug\System.Web.WebPages.xml
 D:\Prady\RoughPad\PluggedMVC\PluginRegister\bin\Debug\System.Web.WebPages.Deployment.xml
 D:\Prady\RoughPad\PluggedMVC\PluginRegister\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Prady\RoughPad\PluggedMVC\PluginRegister\obj\Debug\PluginRegister.csprojResolveAssemblyReference.cache
 D:\Prady\RoughPad\PluggedMVC\PluginRegister\obj\Debug\PluginRegister.dll
 D:\Prady\RoughPad\PluggedMVC\PluginRegister\obj\Debug\PluginRegister.pdb

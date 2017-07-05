@@ -8,6 +8,7 @@ namespace PluginRegister
 {
     public class ModuleNames
     {
-        public const string Plugin1 = "Plugin1";    
+        public const string Plugin1 = "Plugin1";
+        public const string Plugin2 = "Plugin2";
     }
 }

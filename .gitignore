@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/PluggedMVC/packages/Microsoft.AspNet.WebApi.Client.5.2.3
+/PluggedMVC/packages/Microsoft.AspNet.WebApi.5.2.3
+/PluggedMVC/packages/Microsoft.AspNet.WebApi.Core.5.2.3

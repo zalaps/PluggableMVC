@@ -1,15 +1,3 @@
-D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\roslyn\csc.exe
-D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\roslyn\System.Collections.Immutable.dll
-D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\roslyn\System.Reflection.Metadata.dll
-D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\roslyn\vbc.exe
-D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\roslyn\VBCSCompiler.exe
-D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\roslyn\VBCSCompiler.exe.config
 D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\PluggedMVC.dll.config
 D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\PluggedMVC.dll
 D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\PluggedMVC.pdb
@@ -21,7 +9,6 @@ D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\EntityFramework.SqlServer.dll
 D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\Microsoft.AspNet.Identity.Core.dll
 D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
 D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\Microsoft.AspNet.Identity.Owin.dll
-D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\Microsoft.Owin.dll
 D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
 D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\Microsoft.Owin.Security.Cookies.dll
@@ -50,7 +37,6 @@ D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\BoC.Web.Mvc.PrecompiledViews.dll
 D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\PluginRegister.pdb
 D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\Castle.Core.xml
 D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\Castle.Windsor.xml
-D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\System.Web.Helpers.xml
 D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\System.Web.Mvc.xml
 D:\Prady\RoughPad\PluggedMVC\PluggedMVC\bin\System.Web.Optimization.xml
