@@ -1,9 +1,0 @@
-D:\Git\PluggableMVC\PluggedMVC\Infrastructure\PluggedMVC.Infrastructure.Data\bin\Debug\PluggedMVC.Infrastructure.Data.dll.config
-D:\Git\PluggableMVC\PluggedMVC\Infrastructure\PluggedMVC.Infrastructure.Data\bin\Debug\PluggedMVC.Infrastructure.Data.dll
-D:\Git\PluggableMVC\PluggedMVC\Infrastructure\PluggedMVC.Infrastructure.Data\bin\Debug\PluggedMVC.Infrastructure.Data.pdb
-D:\Git\PluggableMVC\PluggedMVC\Infrastructure\PluggedMVC.Infrastructure.Data\bin\Debug\EntityFramework.dll
-D:\Git\PluggableMVC\PluggedMVC\Infrastructure\PluggedMVC.Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.dll
-D:\Git\PluggableMVC\PluggedMVC\Infrastructure\PluggedMVC.Infrastructure.Data\bin\Debug\EntityFramework.xml
-D:\Git\PluggableMVC\PluggedMVC\Infrastructure\PluggedMVC.Infrastructure.Data\bin\Debug\EntityFramework.SqlServer.xml
-D:\Git\PluggableMVC\PluggedMVC\Infrastructure\PluggedMVC.Infrastructure.Data\obj\Debug\PluggedMVC.Infrastructure.Data.dll
-D:\Git\PluggableMVC\PluggedMVC\Infrastructure\PluggedMVC.Infrastructure.Data\obj\Debug\PluggedMVC.Infrastructure.Data.pdb

@@ -1,7 +1,0 @@
-D:\Git\PluggableMVC\PluggedMVC\Core\PluggedMVC.Core.Service\bin\Debug\PluggedMVC.Core.Service.dll
-D:\Git\PluggableMVC\PluggedMVC\Core\PluggedMVC.Core.Service\bin\Debug\PluggedMVC.Core.Service.pdb
-D:\Git\PluggableMVC\PluggedMVC\Core\PluggedMVC.Core.Service\bin\Debug\PluggedMVC.Core.Model.dll
-D:\Git\PluggableMVC\PluggedMVC\Core\PluggedMVC.Core.Service\bin\Debug\PluggedMVC.Core.Model.pdb
-D:\Git\PluggableMVC\PluggedMVC\Core\PluggedMVC.Core.Service\obj\Debug\PluggedMVC.Core.Service.csprojResolveAssemblyReference.cache
-D:\Git\PluggableMVC\PluggedMVC\Core\PluggedMVC.Core.Service\obj\Debug\PluggedMVC.Core.Service.dll
-D:\Git\PluggableMVC\PluggedMVC\Core\PluggedMVC.Core.Service\obj\Debug\PluggedMVC.Core.Service.pdb
