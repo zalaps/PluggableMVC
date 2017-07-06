@@ -1,0 +1,9 @@
+D:\Git\PluggableMVC\PluggedMVC\Core\PluggedMVC.Core.Data\bin\Debug\PluggedMVC.Core.Data.dll
+D:\Git\PluggableMVC\PluggedMVC\Core\PluggedMVC.Core.Data\bin\Debug\PluggedMVC.Core.Data.pdb
+D:\Git\PluggableMVC\PluggedMVC\Core\PluggedMVC.Core.Data\bin\Debug\PluggedMVC.Infrastructure.Data.dll
+D:\Git\PluggableMVC\PluggedMVC\Core\PluggedMVC.Core.Data\bin\Debug\EntityFramework.dll
+D:\Git\PluggableMVC\PluggedMVC\Core\PluggedMVC.Core.Data\bin\Debug\PluggedMVC.Infrastructure.Data.pdb
+D:\Git\PluggableMVC\PluggedMVC\Core\PluggedMVC.Core.Data\bin\Debug\EntityFramework.xml
+D:\Git\PluggableMVC\PluggedMVC\Core\PluggedMVC.Core.Data\obj\Debug\PluggedMVC.Core.Data.csprojResolveAssemblyReference.cache
+D:\Git\PluggableMVC\PluggedMVC\Core\PluggedMVC.Core.Data\obj\Debug\PluggedMVC.Core.Data.dll
+D:\Git\PluggableMVC\PluggedMVC\Core\PluggedMVC.Core.Data\obj\Debug\PluggedMVC.Core.Data.pdb

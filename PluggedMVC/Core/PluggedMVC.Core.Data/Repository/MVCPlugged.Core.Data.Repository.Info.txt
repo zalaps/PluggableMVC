@@ -1,0 +1,3 @@
+﻿Here all Custom repositories for db entities will reside.
+e.g. IBrandRepository
+This can be implemented by BrandRepository, which already inherits RepositoryBase<T>

@@ -1,7 +1,13 @@
-﻿@{
-    ViewBag.Title = "About";
+﻿@model List<PluggedMVC.Core.Model.PersonViewModel>
+
+@{
+    ViewBag.Title = "List of Persons";
 }
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
 
-<p>Use this area to provide additional information.</p>
+@foreach (var item in Model)
+{
+    @Html.DisplayFor(m=>item.FirstName)
+    <br />
+}

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{ADE4BF05-987B-4F9B-9F73-77EF146BF848}"
 EndProject
@@ -10,8 +10,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebFrontEnd", "WebFrontEnd", "{1C317800-AA04-4BF5-8233-BF2B4014DBC7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebPlugins", "WebPlugins", "{9E86D91A-4B49-4321-AB3F-69AE11177E9A}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{85D42788-E532-44FB-B794-7C89215AAF67}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluggedMVC.Core.Plugable", "..\Core\PluggedMVC.Core.Plugable\PluggedMVC.Core.Plugable.csproj", "{48B446B8-8AC9-423E-9AA3-038E41766EC1}"
 EndProject
@@ -22,6 +20,18 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluggedMVC.WebPlugins.ClassLibraryTemplate", "..\WebPlugins\PluggedMVC.WebPlugins.ClassLibraryTemplate\PluggedMVC.WebPlugins.ClassLibraryTemplate.csproj", "{CFA576FC-FB66-4120-BB27-DC12121E334C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluggedMVC.Infrastructure.PluginRegister", "..\Infrastructure\PluggedMVC.Infrastructure.PluginRegister\PluggedMVC.Infrastructure.PluginRegister.csproj", "{AE89F788-0B17-46E0-9C4E-A1D15F08223B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluggedMVC.Core.Data", "..\Core\PluggedMVC.Core.Data\PluggedMVC.Core.Data.csproj", "{6427061A-4B0E-442E-B670-8AE9FB2E8A4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluggedMVC.Infrastructure.Data", "..\Infrastructure\PluggedMVC.Infrastructure.Data\PluggedMVC.Infrastructure.Data.csproj", "{A446DDC4-7D51-4034-98F1-C9C4B88F986D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluggedMVC.Infrastructure.Repository", "..\Infrastructure\PluggedMVC.Infrastructure.Repository\PluggedMVC.Infrastructure.Repository.csproj", "{B669CB29-9358-4157-AC68-E7F435174018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluggedMVC.Core.Model", "..\Core\PluggedMVC.Core.Model\PluggedMVC.Core.Model.csproj", "{5A5C5CB3-80B3-4D8F-BD1B-85CED70A1536}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluggedMVC.Core.Service", "..\Core\PluggedMVC.Core.Service\PluggedMVC.Core.Service.csproj", "{90251E80-BFB7-4238-8752-9C31AD7961D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluggedMVC.Infrastructure.Service", "..\Infrastructure\PluggedMVC.Infrastructure.Service\PluggedMVC.Infrastructure.Service.csproj", "{236BAB2B-CD7B-44D3-80A8-27E7BDD85E64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +59,30 @@ Global
 		{AE89F788-0B17-46E0-9C4E-A1D15F08223B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE89F788-0B17-46E0-9C4E-A1D15F08223B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE89F788-0B17-46E0-9C4E-A1D15F08223B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6427061A-4B0E-442E-B670-8AE9FB2E8A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6427061A-4B0E-442E-B670-8AE9FB2E8A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6427061A-4B0E-442E-B670-8AE9FB2E8A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6427061A-4B0E-442E-B670-8AE9FB2E8A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A446DDC4-7D51-4034-98F1-C9C4B88F986D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A446DDC4-7D51-4034-98F1-C9C4B88F986D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A446DDC4-7D51-4034-98F1-C9C4B88F986D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A446DDC4-7D51-4034-98F1-C9C4B88F986D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B669CB29-9358-4157-AC68-E7F435174018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B669CB29-9358-4157-AC68-E7F435174018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B669CB29-9358-4157-AC68-E7F435174018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B669CB29-9358-4157-AC68-E7F435174018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A5C5CB3-80B3-4D8F-BD1B-85CED70A1536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A5C5CB3-80B3-4D8F-BD1B-85CED70A1536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A5C5CB3-80B3-4D8F-BD1B-85CED70A1536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A5C5CB3-80B3-4D8F-BD1B-85CED70A1536}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90251E80-BFB7-4238-8752-9C31AD7961D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90251E80-BFB7-4238-8752-9C31AD7961D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90251E80-BFB7-4238-8752-9C31AD7961D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90251E80-BFB7-4238-8752-9C31AD7961D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{236BAB2B-CD7B-44D3-80A8-27E7BDD85E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{236BAB2B-CD7B-44D3-80A8-27E7BDD85E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{236BAB2B-CD7B-44D3-80A8-27E7BDD85E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{236BAB2B-CD7B-44D3-80A8-27E7BDD85E64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,5 +93,11 @@ Global
 		{DFF783F0-CA2E-476C-BF73-67144ACD3985} = {9E86D91A-4B49-4321-AB3F-69AE11177E9A}
 		{CFA576FC-FB66-4120-BB27-DC12121E334C} = {9E86D91A-4B49-4321-AB3F-69AE11177E9A}
 		{AE89F788-0B17-46E0-9C4E-A1D15F08223B} = {FB5A10D5-D414-433D-8F3F-43E3A76540B3}
+		{6427061A-4B0E-442E-B670-8AE9FB2E8A4B} = {ADE4BF05-987B-4F9B-9F73-77EF146BF848}
+		{A446DDC4-7D51-4034-98F1-C9C4B88F986D} = {FB5A10D5-D414-433D-8F3F-43E3A76540B3}
+		{B669CB29-9358-4157-AC68-E7F435174018} = {FB5A10D5-D414-433D-8F3F-43E3A76540B3}
+		{5A5C5CB3-80B3-4D8F-BD1B-85CED70A1536} = {ADE4BF05-987B-4F9B-9F73-77EF146BF848}
+		{90251E80-BFB7-4238-8752-9C31AD7961D8} = {ADE4BF05-987B-4F9B-9F73-77EF146BF848}
+		{236BAB2B-CD7B-44D3-80A8-27E7BDD85E64} = {FB5A10D5-D414-433D-8F3F-43E3A76540B3}
 	EndGlobalSection
 EndGlobal

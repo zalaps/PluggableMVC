@@ -49,6 +49,14 @@
     <Reference Include="Castle.Windsor, Version=3.4.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
       <HintPath>..\..\Solution\packages\Castle.Windsor.3.4.0\lib\net45\Castle.Windsor.dll</HintPath>
     </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\Solution\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\..\Solution\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Practices.ServiceLocation, Version=1.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\..\Solution\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
@@ -211,9 +219,33 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Core\PluggedMVC.Core.Data\PluggedMVC.Core.Data.csproj">
+      <Project>{6427061a-4b0e-442e-b670-8ae9fb2e8a4b}</Project>
+      <Name>PluggedMVC.Core.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\PluggedMVC.Core.Model\PluggedMVC.Core.Model.csproj">
+      <Project>{5A5C5CB3-80B3-4D8F-BD1B-85CED70A1536}</Project>
+      <Name>PluggedMVC.Core.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\PluggedMVC.Core.Service\PluggedMVC.Core.Service.csproj">
+      <Project>{90251E80-BFB7-4238-8752-9C31AD7961D8}</Project>
+      <Name>PluggedMVC.Core.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\PluggedMVC.Infrastructure.Data\PluggedMVC.Infrastructure.Data.csproj">
+      <Project>{a446ddc4-7d51-4034-98f1-c9c4b88f986d}</Project>
+      <Name>PluggedMVC.Infrastructure.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Infrastructure\PluggedMVC.Infrastructure.PluginRegister\PluggedMVC.Infrastructure.PluginRegister.csproj">
       <Project>{AE89F788-0B17-46E0-9C4E-A1D15F08223B}</Project>
       <Name>PluggedMVC.Infrastructure.PluginRegister</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\PluggedMVC.Infrastructure.Repository\PluggedMVC.Infrastructure.Repository.csproj">
+      <Project>{b669cb29-9358-4157-ac68-e7f435174018}</Project>
+      <Name>PluggedMVC.Infrastructure.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Infrastructure\PluggedMVC.Infrastructure.Service\PluggedMVC.Infrastructure.Service.csproj">
+      <Project>{236bab2b-cd7b-44d3-80a8-27e7bdd85e64}</Project>
+      <Name>PluggedMVC.Infrastructure.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

@@ -30,21 +30,56 @@ namespace ASP
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("RazorGenerator", "2.0.0.0")]
     [System.Web.WebPages.PageVirtualPathAttribute("~/Views/Root3/Index.cshtml")]
-    public partial class _Views_Root3_Index_cshtml : System.Web.Mvc.WebViewPage<PluggedMVC.WebPlugins.MVCTemplate.Models.Root3Model>
+    public partial class _Views_Root3_Index_cshtml : System.Web.Mvc.WebViewPage<List<PluggedMVC.Core.Model.PersonViewModel>>
     {
         public _Views_Root3_Index_cshtml()
         {
         }
         public override void Execute()
         {
-WriteLiteral("<!DOCTYPE html>\n\n<html>\n<head>\n    <meta");
+WriteLiteral("    <h1>This is Root3 View from MVCTemplate Plugin.</h1>\r\n    <p>Following are li" +
+"st of First Name of Person entity.</p>\r\n\r\n");
 
-WriteLiteral(" name=\"viewport\"");
+            
+            #line 6 "..\..\Views\Root3\Index.cshtml"
+    
+            
+            #line default
+            #line hidden
+            
+            #line 6 "..\..\Views\Root3\Index.cshtml"
+     foreach (var item in Model)
+    {
+        
+            
+            #line default
+            #line hidden
+            
+            #line 8 "..\..\Views\Root3\Index.cshtml"
+   Write(Html.DisplayFor(m => item.FirstName));
 
-WriteLiteral(" content=\"width=device-width\"");
+            
+            #line default
+            #line hidden
+            
+            #line 8 "..\..\Views\Root3\Index.cshtml"
+                                             
 
-WriteLiteral(" />\n    <title>Index</title>\n</head>\n\n<body>\n    <div> \n        <h1>This is Root3" +
-" View from MVCTemplate Plugin.</h1>\n    </div>\n</body>\n</html>\n");
+            
+            #line default
+            #line hidden
+WriteLiteral("        <br />\r\n");
+
+            
+            #line 10 "..\..\Views\Root3\Index.cshtml"
+    }
+
+            
+            #line default
+            #line hidden
+WriteLiteral("\r\n    ");
+
+WriteLiteral("\r\n");
 
         }
     }

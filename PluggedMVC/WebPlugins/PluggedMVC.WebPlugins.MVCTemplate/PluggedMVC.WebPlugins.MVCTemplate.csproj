@@ -1,4 +1,5 @@
-﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -126,9 +127,17 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Core\PluggedMVC.Core.Model\PluggedMVC.Core.Model.csproj">
+      <Project>{5A5C5CB3-80B3-4D8F-BD1B-85CED70A1536}</Project>
+      <Name>PluggedMVC.Core.Model</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Core\PluggedMVC.Core.Plugable\PluggedMVC.Core.Plugable.csproj">
       <Project>{48B446B8-8AC9-423E-9AA3-038E41766EC1}</Project>
       <Name>PluggedMVC.Core.Plugable</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Core\PluggedMVC.Core.Service\PluggedMVC.Core.Service.csproj">
+      <Project>{90251E80-BFB7-4238-8752-9C31AD7961D8}</Project>
+      <Name>PluggedMVC.Core.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

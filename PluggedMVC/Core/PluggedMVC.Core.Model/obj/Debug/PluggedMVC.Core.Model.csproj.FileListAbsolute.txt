@@ -1,0 +1,4 @@
+D:\Git\PluggableMVC\PluggedMVC\Core\PluggedMVC.Core.Model\bin\Debug\PluggedMVC.Core.Model.dll
+D:\Git\PluggableMVC\PluggedMVC\Core\PluggedMVC.Core.Model\bin\Debug\PluggedMVC.Core.Model.pdb
+D:\Git\PluggableMVC\PluggedMVC\Core\PluggedMVC.Core.Model\obj\Debug\PluggedMVC.Core.Model.dll
+D:\Git\PluggableMVC\PluggedMVC\Core\PluggedMVC.Core.Model\obj\Debug\PluggedMVC.Core.Model.pdb
