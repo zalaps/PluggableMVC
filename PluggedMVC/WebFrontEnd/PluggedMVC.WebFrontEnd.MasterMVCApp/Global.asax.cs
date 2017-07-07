@@ -1,9 +1,10 @@
 ﻿using Castle.MicroKernel.Registration;
+using Microsoft.Practices.ServiceLocation;
 using PluggedMVC.Core.Data.Base;
 using PluggedMVC.Core.Service;
-using PluggedMVC.Infrastructure.Data;
 using PluggedMVC.Infrastructure.PluginRegister;
 using PluggedMVC.WebFrontEnd.MasterMVCApp.AppCode;
+using PluggedMVC.WebFrontEnd.Resolver;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -22,34 +23,11 @@ namespace PluggedMVC.WebFrontEnd.MasterMVCApp
         {
             Bootstrapper.Install();
             PluginBootstrapper.Initialize();
-
-            var container = Microsoft.Practices.ServiceLocation.ServiceLocator.Current.GetInstance<Castle.Windsor.IWindsorContainer>();
-
+            Injector.Inject();
+            
+            var container = ServiceLocator.Current.GetInstance<Castle.Windsor.IWindsorContainer>();
             container.Register(AllTypes.Of<IController>().FromAssembly(Assembly.GetExecutingAssembly())
-                .LifestyleTransient());
-
-            //Hardcoded resolution
-            //container.Register(AllTypes.FromAssembly(typeof(PersonService).Assembly)
-            //    .BasedOn<IBaseService>()
-            //    .WithService.FromInterface()
-            //    .LifestyleTransient());
-
-            container.Register(
-                AllTypes.FromAssemblyNamed("PluggedMVC.Infrastructure.Repository")
-                .Where(type => type.IsPublic)
-                .WithService.AllInterfaces()
-                .LifestyleTransient());
-
-            container.Register(
-                AllTypes.FromAssemblyNamed("PluggedMVC.Infrastructure.Service")
-                .Where(type => type.IsPublic)
-                .WithService.FirstInterface()
-                .LifestyleTransient());
-
-            container.Register(
-                Component.For<AdventureWorksEntities>()
-                .ImplementedBy<AdventureWorksEntities>()
-                .LifeStyle.PerWebRequest);
+                .LifestyleTransient());           
 
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);

@@ -231,21 +231,13 @@
       <Project>{90251E80-BFB7-4238-8752-9C31AD7961D8}</Project>
       <Name>PluggedMVC.Core.Service</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Infrastructure\PluggedMVC.Infrastructure.Data\PluggedMVC.Infrastructure.Data.csproj">
-      <Project>{a446ddc4-7d51-4034-98f1-c9c4b88f986d}</Project>
-      <Name>PluggedMVC.Infrastructure.Data</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\Infrastructure\PluggedMVC.Infrastructure.PluginRegister\PluggedMVC.Infrastructure.PluginRegister.csproj">
       <Project>{AE89F788-0B17-46E0-9C4E-A1D15F08223B}</Project>
       <Name>PluggedMVC.Infrastructure.PluginRegister</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\Infrastructure\PluggedMVC.Infrastructure.Repository\PluggedMVC.Infrastructure.Repository.csproj">
-      <Project>{b669cb29-9358-4157-ac68-e7f435174018}</Project>
-      <Name>PluggedMVC.Infrastructure.Repository</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Infrastructure\PluggedMVC.Infrastructure.Service\PluggedMVC.Infrastructure.Service.csproj">
-      <Project>{236bab2b-cd7b-44d3-80a8-27e7bdd85e64}</Project>
-      <Name>PluggedMVC.Infrastructure.Service</Name>
+    <ProjectReference Include="..\PluggedMVC.WebFrontEnd.Resolver\PluggedMVC.WebFrontEnd.Resolver.csproj">
+      <Project>{3C4B6774-2C9B-4AF0-A2CD-58C34659FC8B}</Project>
+      <Name>PluggedMVC.WebFrontEnd.Resolver</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
